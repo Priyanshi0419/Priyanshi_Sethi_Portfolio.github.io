@@ -1,0 +1,125 @@
+body{
+    background-color:rgb(247, 236, 221);
+}
+nav{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top:10px;
+    background-color: black;
+    
+}
+ul {
+    display:flex;
+    list-style: none;
+  
+  }
+ul button{
+ 
+
+    width:95px;
+    height:34px;
+    background-color:orangered;
+    color:white;
+    border-radius:10%;
+    font-size:15px;
+    border:none;
+}
+ul li a{
+    margin-inline:25px;
+    color:powderblue;
+   text-transform:uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+}
+ul li a:hover{
+    font-size:25px;
+    text-decoration: underline;
+    font-weight: 400;
+}
+ul button:hover{
+    border:2px solid black;
+   color:orangered;
+   background-color:white;
+}
+.container{
+    display:flex;
+   padding-left:70px;
+    margin-top:40px;
+}
+.text{
+margin-top :75px;
+ 
+   
+}
+#image{
+    margin-left:150px;
+    border:2px solid black;
+}
+
+h1{
+   font-size:40px;
+   color:khaki;
+}
+h2{
+font-size:50px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight:200;
+
+color:brown;
+
+}
+h3{
+    font-size:25px;  
+    font-family: Arial, Helvetica, sans-serif; 
+    color:black;
+      
+}
+#intro{
+    font-size:25px;
+    color:navy;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 300;
+}
+h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:purple;
+    margin-top:120px;
+    text-decoration: underline;
+    font-size:40px;
+    text-align:center;
+}
+.work{
+    font-size:25px;
+    position:relative;
+    left:45px;
+}
+h5{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:olivedrab;
+    margin-top:300px;
+    text-decoration: underline;
+    font-size:40px;
+    text-align:center; 
+}
+.contact{
+    font-size:25px;
+    position:relative;
+    left:45px; 
+}
+h6{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(6, 47, 55);
+    margin-top:150px;
+    text-decoration: underline;
+    font-size:40px;
+    text-align:center; 
+}
+#about{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding-left:20px;
+    margin-bottom:200px;
+}
